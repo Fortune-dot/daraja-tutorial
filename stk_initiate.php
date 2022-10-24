@@ -26,7 +26,7 @@ if(isset($_POST['submit'])){
    $PartyA = $_POST['phone']; // This is your phone number, 
   $AccountReference = '2255';
   $TransactionDesc = 'Test Payment';
-  $Amount = $_POST['amount'];;
+  $Amount = $_POST['amount'];
  
   # Get the timestamp, format YYYYmmddhms -> 20181004151020
   $Timestamp = date('YmdHis');    
